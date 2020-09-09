@@ -20,7 +20,7 @@ namespace PropertyManager.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View("DefaultIndex");
         }
 
         public IActionResult Privacy()
